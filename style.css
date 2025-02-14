@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: aliceblue;
+}
+
+body{
+    background: url("https://fastly.picsum.photos/id/327/1920/1089.jpg?hmac=5v4D1IdvkBd_c5rY-cabxlAfHFBezmC9q2iyj-Mic10");
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    font-size: 1.2rem;
+    max-width: 95%;
+    width: 300px;
+    padding: 12px;
+    background-color: black;
+    opacity: 0.8;
+    color: white;
+    border-radius: 12px;
+    padding-top: 30px;
+}
+
+#enviar-dados{
+    color: #ffff;
+    outline: none;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    background: #7c7c7c2b;
+}
+
+#button-envio{
+    color: black;
+    padding: 9px;
+    float: right;
+    cursor: pointer;
+    text-decoration: none;
+}
+.cidade-caixa{
+    padding: 12px;
+}
