@@ -19,7 +19,7 @@ body{
 main{
     font-size: 1.2rem;
     max-width: 95%;
-    width: 300px;
+    width: 400px;
     padding: 12px;
     background-color: black;
     opacity: 0.8;
@@ -29,9 +29,11 @@ main{
 }
 
 #enviar-dados{
+    font-size: 0.8em;
     color: #ffff;
     outline: none;
     border: none;
+    width: 88%;
     padding: 10px;
     border-radius: 5px;
     background: #7c7c7c2b;
@@ -39,11 +41,28 @@ main{
 
 #button-envio{
     color: black;
-    padding: 9px;
+    padding: 7px;
     float: right;
     cursor: pointer;
     text-decoration: none;
 }
+#button-envio img{
+    width: 18px;
+    height: 18px;
+}
+
 .cidade-caixa{
     padding: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    margin-top: 10px;
+    font-size: 1.4em;
+}
+
+.caixa-modo{
+    padding: 12px;
+    display: flex;
+    align-items: center;
+   
 }

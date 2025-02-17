@@ -4,19 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
     <title>Temperando</title>
 </head>
 <body>
     <main>
         <input id="enviar-dados" type="text" placeholder="Digite o nome da sua cidade">
-        <button id="button-envio">Enviar</button>
+        <button id="button-envio" onclick="pegarDados()">
+            <img src="https://www.svgrepo.com/show/488200/find.svg" alt="">
+        </button>
         <aside class="cidade-caixa">
-            <h3>Temperatura em Salvador</h3>
-            <p>23°C</p>
+            <h3 id="nome-cidade">Temperatura em Itaberaba</h3>
+            <p id="temperatura">23°C</p>
         </aside>
-        <aside class="nubl">
-            <img src="" alt="">
-            <p>Nublado</p>
+        <aside class="caixa-modo">
+            <img src="https://openweathermap.org/img/wn/04n.png" alt="">
+            <p id="estado">Nublado</p>
         </aside>
 
     </main>
